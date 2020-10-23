@@ -10,9 +10,16 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+document.getElementById("entertext").addEventListener("keyup", pigLatin);
+
+
+
+
 
 
   const pigLatin = (word) => {
+    var word = document.getElementById("entertext");
+   
       word = word.toLowerCase()
       word = word.trim()
       let splitUp = word.split('');
@@ -62,14 +69,14 @@ const rl = readline.createInterface({
       
         }
         
+      } else {
+
       }
        
     
     }
    
   }
-
-
 
 
 // the first function called in the program to get an input from the user

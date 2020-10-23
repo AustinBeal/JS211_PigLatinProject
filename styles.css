@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(139, 163, 202);
+  width: auto;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+  margin-top: 150px;
+  width: auto;
+  text-align: center;
+}
+h2{
+  font-size: 20px;
+  width: auto;
+  text-align: center;
+}
+#textboxcontainer{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+#display-element{
+  width: 30%;
+  
+  display: flex;
+  justify-content: center;
+}
+.newbox{
+  display: flex;
+  justify-content: center;
+}
+button{
+  color: white;
+  background-color: rgb(71, 71, 122);
+}
+#newstrings{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
